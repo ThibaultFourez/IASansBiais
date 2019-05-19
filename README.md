@@ -1,1 +1,5 @@
-# IASansBiais
+# 5 Correcting bias by modifying the classifiers
+## 5.2 Convex Approach
+### 5.2.4 Experiments on Adult_Census data set
+
+In this section, we compare the different approaches (fairness constraints, accuracy constraints and fine-grained accuracy constraints) on our data set Adult_Census. We use and modify python functions from Zafar et al. (2015). We only load 10,000 users from the data set for computing and memory reasons. 70% of the loaded users form the training set (i.e. the set used to find the classifier solving the optimization problem). The other 30% form the testing set. For clarity, we use only one sensitive attribute (sex or race, previously defined as origEthn). However, this method can be generalized for multiple attributes, as said above. In order to compare the results, we consider two intuitive measures: accuracy and p%-rule and we do the tests changing the setting parameters on the testing set of users only. p%-rule generalizes the empiric rule of the Disparate Impact needing to be higher than 80\%. In the following, p%-rule denotes the observed Disparate Impact. 
