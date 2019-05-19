@@ -1,1 +1,6 @@
-# IASansBiais
+# Unbiasing learning algorithms to prevent discrimination in automated decision processes
+Authors: Thibault Fourez (INSA Toulouse), Fanny Mathevet (INSA Toulouse), Hà Nhi Ngo (INSA Toulouse)
+Adviser: Philippe Besse (INSA Toulouse)
+
+### Abstract:
+Deep learning-based algorithms are increasingly used to predict or make decisions. These algorithms are based on databases containing previous measures of each parameter. If these databases misrepresent a group, the algorithm can make unfair predictions over this group, regarding what is predicted. This misclassification tends to emphasize the existing unfairness and therefore loses accuracy. In this paper, we implement and compare existing Fair Learning algorithms. This paper aims to state the benefits and limitations of state-of-the-art techniques to select the optimal algorithm regarding the data. The methods are classifier modification, data modification and changing the decision rule itself. We applied each method on real life data (Adult_Census). This data set is quite representative of population in terms of sensitive attributes (e.g. sex and ethnic origin). It appears that the more complex and advanced unbiasing methods may not be the most relevant. Some very intuitive methods are more accurate and efficient regarding the data. These correction methods play an important role in fighting against discrimination. They have already been applied in fields such as recruitment and finance.
