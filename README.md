@@ -1,5 +1,6 @@
 # Unbiasing learning algorithms to prevent discrimination in automated decision processes
 Authors: Thibault Fourez (INSA Toulouse), Fanny Mathevet (INSA Toulouse), Hà Nhi Ngo (INSA Toulouse)
+
 Adviser: Philippe Besse (INSA Toulouse)
 
 ### Abstract:
